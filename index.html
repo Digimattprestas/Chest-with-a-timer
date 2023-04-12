@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="logo_petit.png">
+        <link rel="stylesheet" href="style.css"/>
+        <title>POTCB - Chest</title>
+    </head>
+    <body>
+        <video id="cutscene" src="Scene_7_montee.mp4" muted hidden></video>
+        <div id="faux"></div>
+        <div id="bon"></div>
+        <div id="transi"></div>
+        <div id="succés">
+            <h1 id="bravo">Bravo, vous avez trouvé les Beanfinity Stones !</h1>
+        </div>
+        <div id="raté">
+            <h2>Pas de chance, mais c'est rate !</h2>
+            <img id="pirate" src="Pirate_GO.png" alt="">
+        </div>
+        <div id="timer">
+            <div id="minutes">1</div>
+            <div>:</div>
+            <div id="secondes">00</div>
+        </div>
+        <h1>Pirates of the Carib Beans - Chest</h1>
+        <div class="chest">
+            <img id="couvercle" src="couvercle_coffre.png" alt="Coffre au trésor">
+            <img id="base" src="base_coffre.png" alt="Coffre au trésor">
+            <div id="cadenas">
+                <input class="code" type="number" min="0" max="9">
+                <input class="code" type="number" min="0" max="9">
+                <input class="code" type="number" min="0" max="9">
+                <input class="code" type="number" min="0" max="9">
+                <input class="code" type="number" min="0" max="9">
+            </div>
+        </div>
+        <div id="b_c">
+            <input id="start" type="submit" value="Commencer !">
+            <input id="unlock" type="submit" value="Indisponible..." disabled>
+        </div>
+        <img id="fond" src="Fond_Coffre_Web.png" alt=""/>
+        <audio id="sonfaux">
+            <source src="windows-xp-error-sound.mp3" type="audio/mp3">
+        </audio>
+        <audio id="sonbon">
+            <source src="final-fantasy-vii-victory-fanfare-hd.mp3" type="audio/mp3">
+        </audio>
+        <audio id="cparty">
+            <source src="mario-party-4-soundtrack-hurry-hurry.mp3" type="audio/mp3">
+        </audio>
+        <audio id="gameover">
+            <source src="game-over-the-legend-of-zelda-twilight-princess.mp3" type="audio/mp3">
+        </audio>
+        <audio id="soncutscene">
+            <source src="wind-waker-treasure-chest.mp3" type="audio/mp3">
+        </audio>
+        <script src="script.js"></script>
+    </body>
+</html>
