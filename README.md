@@ -1,7 +1,11 @@
 # Chest with a timer
+
 This chest has been created for a special school event.
 
 # How to use it ?
+
+First, open the file "index.html"
+
 When you load the page, you can see a button "Start" (Commencer !) to launch the timer. 
 When you do that, the next button will turn to a "Unlock" (Déverrouiller) button. Hitting this button will test the code you have put.
 
